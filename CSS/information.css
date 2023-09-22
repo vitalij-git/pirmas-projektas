@@ -1,0 +1,33 @@
+.information-left-box{
+    margin: 5px;
+}
+.information-nav{
+    background-color: white;
+    color:#007bff ;
+}
+.word-style{
+   text-decoration: underline;
+   font-weight: bold;
+}
+.monitor-style h3{
+    text-align: center;
+    margin: 40px;
+}
+.monitor-style img{
+   margin:30px auto;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+}
+.image-style{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    padding: 20px;
+}
+h3{
+    padding: 20px;
+}

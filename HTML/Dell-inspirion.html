@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/prekes.css">
+    <link rel="stylesheet" href="../CSS/contacts.css">
+    <title>Mano puslapis</title>
+</head>
+
+<body>
+    <div class="container container-class">
+        <div class="row top-row">
+            <div class="logotipas">
+                <a href="index.html"><img src="../Images/Logo.png" alt="Logotipas"></a>
+            </div>
+            <div class="login">
+                <a href="" class="login-class">Prisijungti</a>
+                <a href="" class="login-class">Registracija</a>
+            </div>
+        </div>
+        <div class="row nav-bar-row">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="news.html">Naujienos</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="deliveryOfGoods.html">Prekiu pristatymas</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="information.html">Naudinga informacija</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="Contacts.html">Kontaktai</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="row bread-crumb-bar">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="Elektronic.html">Kategorija1</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Dell inspirion 15 (5567)</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="row left-box-border ">
+                    <div class="left-box-head">
+                        <div>
+                            <nav class="navbar navbar-light">
+                                <span class="navbar-brand mb-0 h1">Prekių krepšelis</span>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row left-box-content">
+                        <div>
+                            <img src="../Images/vezimelis.gif" alt="krepselis">
+                        </div>
+                        <div>
+                            <a href="itemBasket.html">Prekių krepšelyje: <span id="totalCount"></span></a>
+                        </div>
+                    </div>
+                    <div class="left-box-down rounded-pill">
+                        <a href="itemBasket.html">Pažiūrėti krepšelį</a>
+                    </div>
+                </div>
+                <div class="row left-box-border left-box-margin">
+                    <div class="left-box-head">
+                        <div>
+                            <nav class="navbar navbar-light">
+                                <span class="navbar-brand mb-0 h1">Prekių kategorijos</span>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="side-menu">
+                        <ul>
+                            <li class="side-menu-border">
+                                <a href="Elektronic.html">Elektronika</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div>
+                    <nav class="navbar navbar-light name-navbar">
+                        <span class="navbar-brand mb-0 h1 shop-item-title">Dell inspirion 15 </span>
+                    </nav>
+                </div>
+                <div class="row item-margin">
+                    <div class="col-8">
+                        <img src="../Images/dell-inspiron-5567.jpg" alt="Dell-Inspirion-5567" class="item-image shop-item-image"
+                            id="Dell-Inspirion-5567">
+                    </div>
+                    <div class="col-4">
+                        <div class="small-item-margin">
+                            <img src="../Images/dell-inspiron-5567(1).jpg" alt="Dell-Inspirion-5567" class="item-image"
+                                id="Dell-Inspirion-5567-1">
+                        </div>
+                        <div class="small-item-margin">
+                            <img src="../Images/dell-inspiron-5567(2).jpg" alt="Dell-Inspirion-5567" class="item-image"
+                                id="Dell-Inspirion-5567-2">
+                        </div>
+                        <div class="small-item-margin">
+                            <img src="../Images/dell-inspiron-5567(3).jpg" alt="Dell-Inspirion-5567" class="item-image"
+                                id="Dell-Inspirion-5567-3">
+                        </div>
+                    </div>
+                    <div class="col-12 price-box">
+                        <div>
+                            <h2>Kaina: <span class="shop-item-price">750 Eur</span></h2>
+                        </div>
+                        <div>
+                            <button id="add-item" class="add-button shop-item-button" onclick="addToCart('Dell inspirion 15', '700', '../Images/dell-inspiron-5567.jpg')">Pridėti į krepšelį</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                    role="tab" aria-controls="nav-home" aria-selected="true">Aprasymas</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                    role="tab" aria-controls="nav-profile" aria-selected="false">Speficikacija</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="Dell-desc">
+                                    <h3>Created to complement you.</h3>
+                                    <div class="desc-image"><img src="../Images/dell-desc1.jpg"
+                                            alt="dell-inspirion-5567"></div>
+                                    <div>
+                                        <p>Grab and go: Your Inspiron is crafted to be portable, so you can stay
+                                            productive and keep in touch wherever you are.
+                                            It’s thin—only 23.3mm—and has a light, easy-open design.</p>
+                                        <p>Stylishly crafted: Add beauty to your desk the moment you open your laptop,
+                                            showing off the stylish,
+                                            brushed hairline palm rest. And the optional backlit, bottom-mount keyboard
+                                            makes typing more comfortable.</p>
+                                    </div>
+                                    <h3>High-end features, exceptional extras.</h3>
+                                    <div class="desc-image"><img src="../Images/dell-desc2.jpg"
+                                            alt="dell-inspirion-5567"> </div>
+                                    <div>
+                                        <p>As powerful as you need it to be: With available 4GB GDDR5 discrete graphics
+                                            and the latest Intel® 7th Gen processors,
+                                            you can enjoy quick, responsive performance that keeps your music and videos
+                                            playing smoothly while your other
+                                            programs run in the background.</p>
+                                        <p>Your backup plan: The DVD drive lets you burn CDs and DVDs, giving you extra
+                                            storage and scalability,
+                                            and you have the option to upgrade to a Blu-Ray writer. Easily increase
+                                            storage as your libraries grow.</p>
+                                    </div>
+                                    <h3>Ports & Slots</h3>
+                                    <div class="desc-image"><img src="../Images/dell-desc3.jpg"
+                                            alt="dell-inspirion-5567"></div>
+                                    <div>
+                                        <p>1.SD Card Slot | 2.USB 2.0 port | 3.DVD drive | 4.Noble lock | 5.AC Power |
+                                            6. 10/100 RJ-45 Ethernet network |
+                                            7.HDMI | 8.USB 3.0 port (x2) | 9.Combo Jack (Headset/Mic)</p>
+                                    </div>
+                                    <h3>Dimensions & Weight</h3>
+                                    <div class="desc-image"><img src="../Images/dell-desc4.jpg"
+                                            alt="dell-inspirion-5567"></div>
+                                    <div>
+                                        <p>1. Height: .92" (23.3mm) | 2. Width: 15.35" (390mm)| 3. Depth: 10.20" (259mm)
+                                            | Weight: Non-Touch: 5.12lb (2.32kg)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <div>
+                                    <table class="item-spec-table">
+                                        <tbody>
+                                            <tr class="text-table-color">
+                                                <td>Warranty</td>
+                                                <th>36 month(s)</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Diagonal</td>
+                                                <th>15.6 "</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Processor boost frequency</td>
+                                                <th>3.10 GHz</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Processor frequency</td>
+                                                <th>2.50 GHz</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Display resolution</td>
+                                                <th>1920 x 1080 pixels</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Battery warranty</td>
+                                                <th>12 month(s)</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Memory clock speed</td>
+                                                <th>2400 MHz</th>
+                                            </tr>
+                                            <tr>
+                                                <td>nternal memory</td>
+                                                <th>8 GB</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Discrete graphics adapter memory</td>
+                                                <th>4 GB</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Solid-state drive capacity</td>
+                                                <th>256 GB</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Gross weight</td>
+                                                <th>3.10 kg</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Net weight</td>
+                                                <th>2.10 kg</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Display surface</td>
+                                                <th>Matt</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Internal memory type</td>
+                                                <th>DDR4</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Memory slots</td>
+                                                <th>8GBx1</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Compatible memory cards</td>
+                                                <th>SD, SDHC, SDXC</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Discrete graphics adapter model</td>
+                                                <th>AMD Radeon R7 M445</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Colour of product</td>
+                                                <th>Silver</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Processor cores</td>
+                                                <th>2</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HD type</td>
+                                                <th>Full HD</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Wi-Fi standards</td>
+                                                <th>802.11ac</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Processor family</td>
+                                                <th>Intel Core i5</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Operating system installed</td>
+                                                <th>Linux</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Discrete graphics memory type</td>
+                                                <th>GDDR5</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Keyboard language</td>
+                                                <th>English</th>
+                                            </tr>
+                                            <tr>
+                                                <td>HDMI ports quantity</td>
+                                                <th>1</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Operating system architecture</td>
+                                                <th>Ubuntu 16.04</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Bluetooth version</td>
+                                                <th>4.2</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Optical drive type</td>
+                                                <th>Tray load DVD Drive (Reads and Writes to DVD/CD)</th>
+                                            </tr>
+                                            <tr>
+                                                <td>USB 2.0 ports quantity</td>
+                                                <th>1</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>USB 3.0 (3.1 Gen 1) Type-A ports quantity</td>
+                                                <th>2</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Storage media</td>
+                                                <th>SSD</th>
+                                            <tr class="text-table-color">
+                                                <td>Processor model</td>
+                                                <th>i5-7200U</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Camera</td>
+                                                <th>HD (720p)</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Producer product name</td>
+                                                <th>15 5567</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Producer product family</td>
+                                                <th>Inspiron</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Front camera</td>
+                                                <th>Yes</th>
+                                            </tr>
+                                            <tr>
+                                                <td>3G</td>
+                                                <th>No</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>4G</td>
+                                                <th>No</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Wi-Fi</td>
+                                                <th>Yes</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Touchscreen</td>
+                                                <th>No</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Bluetooth</td>
+                                                <th>Yes</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>Keyboard backlit</td>
+                                                <th>No</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Card reader integrated</td>
+                                                <th>Yes</th>
+                                            </tr>
+                                            <tr class="text-table-color">
+                                                <td>LED backlight</td>
+                                                <th>Yes</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Total storage capacity</td>
+                                                <th>256 GB</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container footer-class">
+
+    </footer>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="../JS/item.js"></script>
+<script src="../JS/basket.js"></script>
+
+
+</html>

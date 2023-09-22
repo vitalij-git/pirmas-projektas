@@ -1,0 +1,8 @@
+.contacts{
+    list-style-type: none;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+.form-class input{
+    border-radius: 5px;
+}

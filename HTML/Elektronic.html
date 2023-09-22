@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../CSS/prekes.css">
+  <title>Mano puslapis</title>
+</head>
+
+<body>
+  <div class="container container-class">
+    <div class="row top-row">
+      <div class="logotipas">
+        <a href="index.html"><img src="../Images/Logo.png" alt="Logotipas"></a>
+      </div>
+      <div class="login">
+        <a href="" class="login-class">Prisijungti</a>
+        <a href="" class="login-class">Registracija</a>
+      </div>
+    </div>
+    <div class="row nav-bar-row">
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="news.html">Naujienos</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="deliveryOfGoods.html">Prekiu pristatymas</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="information.html">Naudinga informacija</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="Contacts.html">Kontaktai</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="row bread-crumb-bar">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Kategorija1</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="row left-box-border ">
+          <div class="left-box-head">
+            <div>
+              <nav class="navbar navbar-light">
+                <span class="navbar-brand mb-0 h1">Prekių krepšelis</span>
+              </nav>
+            </div>
+          </div>
+          <div class="row left-box-content">
+            <div>
+              <img src="../Images/vezimelis.gif" alt="krepselis">
+            </div>
+            <div>
+              <a href="itemBasket.html">Prekių krepšelyje: <span id="totalCount"></span></a>
+            </div>
+          </div>
+          <div class="left-box-down rounded-pill">
+            <a href="itemBasket.html">Pažiūrėti krepšelį</a>
+          </div>
+        </div>
+        <div class="row left-box-border left-box-margin">
+          <div class="left-box-head">
+            <div>
+              <nav class="navbar navbar-light">
+                <span class="navbar-brand mb-0 h1">Prekių kategorijos</span>
+              </nav>
+            </div>
+          </div>
+          <div class="side-menu">
+            <ul>
+              <li class="side-menu-border">
+                <a href="Elektronic.html">Elektronika</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-9">
+        <div>
+          <nav class="navbar navbar-light name-navbar">
+            <span class="navbar-brand mb-0 h1">Elektronika</span>
+          </nav>
+        </div>
+        <div class="row items-row">
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="Dell-inspirion.html"><img src="../Images/dell-inspiron-5567.jpg" alt="dell inspiron 5567"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="Dell-inspirion.html">Dell inspiron 15 </a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">750 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Dell inspirion 15', '700', '../Images/dell-inspiron-5567.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="*"><img src="../Images/headphones2.jpg" alt="Headphones"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="*">Headphones</a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">80 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Headphones', '80', '../Images/headphones2.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="#"><img src="../Images/mobile.jpg" alt="Samsung mobile"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="#">Samsung </a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">550 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Samsung', '550', '../Images/mobile.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="#"><img src="../Images/keyboard.jpg" alt="keyboard"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title "><a href="#">MODECOM VOLCANO</a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">50 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Modecom volcano', '50', '../Images/keyboard.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row items-row">
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="#"><img src="../Images/mouse-Patriot.jpg" alt="mouse patriot"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="#">Pelė patriot </a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">39 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Pelė patriot', '39', '../Images/mouse-Patriot.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="*"><img src="../Images/monitor-lenovo.jpg" alt="Headphones"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="*">Monitorius lenovo</a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">250 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Monitorius lenovo', '250', '../Images/monitor-lenovo.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="#"><img src="../Images/tv-xiaomi.jpg" alt="TV xiaomi"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title"><a href="#">TV Xiaomi Mi LED </a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">160 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('TV Xiaomi Mi LED', '160', '../Images/tv-xiaomi.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-category shop-item">
+              <div class="items-block-image">
+                <a href="#"><img src="../Images/Asus-laptop.jpg" alt="Asus VivoBook"
+                    class="dell-inspirion-15 shop-item-image "></a>
+              </div>
+              <div class="items-block-name">
+                <span class="shop-item-title "><a href="#">Asus VivoBook</a></span>
+              </div>
+              <div class="item-price-and-add-block">
+                <div class="item-price-block">
+                  <span class="shop-item-price">600 Eur.</span>
+                </div>
+                <div class="item-add-block">
+                  <button class="add-button shop-item-button"
+                    onclick="addToCart('Asus VivoBook', '600', '../Images/Asus-laptop.jpg')">Pridėti</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container footer-class">
+
+  </footer>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="../JS/basket.js"></script>
+
+</html>
